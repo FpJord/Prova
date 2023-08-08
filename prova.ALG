@@ -1,4 +1,6 @@
 Algoritmo "semnome"
+// Disciplina  :  [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi
 
 Var
 
@@ -7,7 +9,7 @@ matricula:inteiro
 n1, n2, media:real
 situacao:caractere
 controle: inteiro
-loop: real
+contador: inteiro
 
 Inicio
 
@@ -53,6 +55,10 @@ enquanto controle = 1 faca
 escreva ("Digite 1 para cadastrar novo aluno ou 0 para sair do sistema: ")
 leia(controle)
 
+contador <- contador + 1
+
 fimenquanto
+
+escreva("Alunos cadastrados: ", contador)
 
 Fimalgoritmo
